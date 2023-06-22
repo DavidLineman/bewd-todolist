@@ -101,6 +101,7 @@ GEM
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.14.1)
@@ -140,6 +141,8 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
+    nokogiri (1.15.2-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.15.2-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.15.2-x86_64-linux)
@@ -149,6 +152,7 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.4.6)
+    pg (1.4.6-x64-mingw-ucrt)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -247,6 +251,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.6.3-x64-mingw-ucrt)
     sqlite3 (1.6.3-x86_64-darwin)
     sqlite3 (1.6.3-x86_64-linux)
     thor (1.2.2)
@@ -257,9 +262,12 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2023.3)
+      tzinfo (>= 1.0.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.4.2)
+    wdm (0.1.1)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -272,6 +280,7 @@ GEM
     zeitwerk (2.6.8)
 
 PLATFORMS
+  x64-mingw-ucrt
   x86_64-darwin-22
   x86_64-linux
 
@@ -299,7 +308,9 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.1)
   sqlite3 (~> 1.4)
   turbolinks (~> 5.2.1)
+  tzinfo-data
   uglifier (~> 4.2.0)
+  wdm (>= 0.1.0)
   web-console (>= 4.2)
   webrick (~> 1.7)
 
