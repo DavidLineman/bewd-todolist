@@ -41,6 +41,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem 'wdm', '>= 0.1.0'
 gem 'rails_admin', '~> 3.0'
 
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
